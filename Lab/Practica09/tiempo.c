@@ -9,4 +9,3 @@ float GetTime(void)
   tim=ru.ru_utime;
   return ((double)tim.tv_sec + (double)tim.tv_usec / 1000000.0)*1000.0;
 }
-
